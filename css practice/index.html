@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="/" class="header-logo"
+        ><img
+          src="images/header-logo.svg"
+          width="135px"
+          height="25px"
+          loading="lazy"
+          alt="A picture of an agitated horse on her back legs"
+          class="header-logo-image"
+      /></a>
+      <nav class="header-menu">
+        <ul class="header-menu-list">
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-link">home</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-link">pages</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-link is-current">portfolio</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-link">blog</a>
+          </li>
+          <li class="header-menu-item">
+            <a href="#" class="header-menu-link">shop</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="header-book-button button" type="button">
+          Book now
+        </button>
+        <button class="header-burger-button" type="button" title="Open Menu">
+          <span class="visually-hidden"></span>
+          <span class="header-burger-button-line"></span
+          ><span class="header-burger-button-line"></span
+          ><span class="header-burger-button-line"></span>
+        </button>
+      </div>
+    </header>
+    <main class="content">
+      <h1 class="visually-hidden">Kropp Fitness Club</h1>
+      <section class="banner">
+        <h2 class="visually-hidden">Upcoming Events</h2>
+        <div class="banner-body">
+          <div class="banner-info">
+            New event <br />
+            coming up / <time datetime="06/07">june 7</time>&nbsp;-&nbsp;<time
+              datetime="06/13"
+              >13</time
+            >
+          </div>
+          <h3 class="banner-title">crossfit</h3>
+        </div>
+        <div class="banner-pagination">
+          <ul class="banner-pagination-list">
+            <li class="banner-pagination-item">
+              <button type="button" class="banner-pagination-button"></button>
+            </li>
+            <li class="banner-pagination-item">
+              <button type="button" class="banner-pagination-button"></button>
+            </li>
+            <li class="banner-pagination-item">
+              <button
+                type="button"
+                class="banner-pagination-button is-current"
+              ></button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="motivation">
+        <h2 class="visually-hidden">Motivation</h2>
+        <ul class="motivation-list">
+          <li class="motivation-item">
+            <div class="motivation-card container">
+              <div class="motivation-card-body">
+                <h3
+                  class="motivation-card-title backdrop-title title-medium"
+                  data-title="strong"
+                >
+                  be you, just stronger! <br />
+                  Power is in you
+                </h3>
+                <div class="motivation-card-description">
+                  <p>
+                    Unum solum justo ex ius. Pro cu probo laboramus eius
+                    insolens euripidis te eos, ut agam tota.
+                  </p>
+                </div>
+                <a href="#" class="motivation-card-button button transparent"
+                  >view more</a
+                >
+              </div>
+              <img
+                class="motivation-card-image"
+                src="./images/motivation-card1.jpg"
+                alt="A muscular male doing pull-ups"
+                width="518"
+                height="760"
+                loading="lazy"
+              />
+            </div>
+          </li>
+          <li class="motivation-item">
+            <div class="motivation-card container">
+              <div class="motivation-card-body">
+                <h3
+                  class="motivation-card-title backdrop-title title-medium"
+                  data-title="start"
+                >
+                  Today is the best <br />
+                  day to start!
+                </h3>
+                <div class="motivation-card-description">
+                  <p>
+                    Sed abhorreant constituam consectetuer eu. At mei clita
+                    deserunt, his movet molestie nemore.
+                  </p>
+                </div>
+                <a href="#" class="motivation-card-button button transparent"
+                  >view more</a
+                >
+              </div>
+              <img
+                class="motivation-card-image"
+                src="./images/motivation-card2.jpg"
+                alt="A male doing biceps curls"
+                width="518"
+                height="760"
+                loading="lazy"
+              />
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="training-types">
+        <h2 class="visually-hidden">Types of training</h2>
+        <ul class="training-types-list">
+          <li class="training-types-item" data-title="MAXPUMP">
+            <img
+              class="training-types-image"
+              src="icons/training-types/training-type (1).svg"
+              alt=""
+              width="140px"
+              height="140px"
+              loading="lazy"
+            />
+          </li>
+          <li class="training-types-item" data-title="ARON GYM">
+            <img
+              class="training-types-image"
+              src="icons/training-types/training-type (2).svg"
+              alt=""
+              width="140px"
+              height="140px"
+              loading="lazy"
+            />
+          </li>
+          <li class="training-types-item" data-title="FIT & TONE">
+            <img
+              class="training-types-image"
+              src="icons/training-types/training-type (3).svg"
+              alt=""
+              width="140px"
+              height="140px"
+              loading="lazy"
+            />
+          </li>
+          <li class="training-types-item" data-title="FORZA">
+            <img
+              class="training-types-image"
+              src="icons/training-types/training-type (4).svg"
+              alt=""
+              width="140px"
+              height="140px"
+              loading="lazy"
+            />
+          </li>
+          <li class="training-types-item" data-title="BALANCE FITNESS">
+            <img
+              class="training-types-image"
+              src="icons/training-types/training-type (5).svg"
+              alt=""
+              width="140px"
+              height="140px"
+              loading="lazy"
+            />
+          </li>
+          <li class="training-types-item" data-title="BODY SCULPT">
+            <img
+              class="training-types-image"
+              src="icons/training-types/training-type (6).svg"
+              alt=""
+              width="140px"
+              height="140px"
+              loading="lazy"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="join-us">
+        <div class="join-us-video-wrapper">
+          <video
+            src="http://media.w3.org/2010/05/sintel/trailer.mp4"
+            class="join-us-video"
+            width="960px"
+            height="600px"
+            poster="images/join-us-poster.png"
+          ></video>
+          <button type="button" class="join-us-video-play-button">Play</button>
+        </div>
+        <div class="join-us-body container">
+          <h2 class="join-us-title">Join Us</h2>
+          <form class="join-us-form">
+            <header class="join-us-form-header">
+              <h3
+                class="join-us-form-title backdrop-title centered"
+                data-title="GO!"
+              >
+                Start Here
+              </h3>
+              <div class="join-us-form-subtitle">
+                fill the form below to start your journey
+              </div>
+            </header>
+            <div class="join-us-form-body">
+              <label class="visually-hidden" for="username">Name</label>
+              <input
+                class="join-us-form-text-input input"
+                type="text"
+                name=""
+                id="username"
+                placeholder="Name"
+                required
+              />
+              <label class="visually-hidden" for="email">Email</label>
+              <input
+                class="join-us-form-email-input input"
+                type="email"
+                name=""
+                id="email"
+                placeholder="Email"
+                required
+              />
+              <button
+                class="join-us-form-button button transparent"
+                type="submit"
+              >
+                Subscribe
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="location">
+        <iframe
+          class="location-map"
+          src="https://my.atlist.com/map/dce48d48-3a94-4e7a-896b-2653954e710a/?share=true"
+          allow="geolocation 'self' https://my.atlist.com"
+          width="960px"
+          height="600px"
+          loading="lazy"
+          frameborder="0"
+          scrolling="no"
+          allowfullscreen
+          id="atlist-embed"
+        ></iframe>
+        <div class="location-body">
+          <h2
+            class="location-body-title backdrop-title centered title-medium"
+            data-title="look"
+          >
+            Find us near you
+          </h2>
+          <div class="location-body-description location-description">
+            <p>
+              Nec suas signiferumque id. An eum labore commodo principes. Usu
+              diam noluisse cu, nam adipisci
+            </p>
+          </div>
+          <a href="#" class="location-body-button button transparent"
+            >view more</a
+          >
+        </div>
+      </section>
+      <section class="family">
+        <div class="family-header">
+          <h3
+            class="family-header-title backdrop-title centered"
+            data-title="PART"
+          >
+            Be a part of our fit family
+          </h3>
+          <div class="family-header-subtitle">
+            training helps you think and feel better. join us!
+          </div>
+        </div>
+        <div class="family-body">
+          <ul class="family-body-slider">
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (1).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (2).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (3).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (4).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (5).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (6).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+            <li class="family-body-slider-card">
+              <img
+                class="family-body-slider-card-image"
+                src="images/slider/slider (7).jpg"
+                alt=""
+                loading="lazy"
+                height="480px"
+                width="auto"
+                draggable="false"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <script src="test.js"></script>
+      <section class="calculate">
+        <div class="calculate-inner container">
+          <div class="calculate-body">
+            <h2
+              class="calculate-title backdrop-title title-medium"
+              data-title="BMI"
+            >
+              Input your bmi
+            </h2>
+            <div class="calculate-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed,
+              nobis voluptas corrupti tempora suscipit exercitationem!
+            </div>
+            <form class="calculate-form">
+              <div class="calculate-form-body">
+                <label class="visually-hidden" for="height">height</label>
+                <input
+                  class="calculate-input input"
+                  type="number"
+                  name=""
+                  id="height"
+                  placeholder="Height / cm"
+                  required
+                />
+
+                <label class="visually-hidden" for="weight">weight</label>
+                <input
+                  class="calculate-input input"
+                  type="number"
+                  name=""
+                  id="weight"
+                  placeholder="Weight / kg"
+                  required
+                />
+
+                <label class="visually-hidden" for="age">Age</label>
+                <input
+                  class="calculate-input input"
+                  type="number"
+                  name=""
+                  id="age"
+                  placeholder="Age"
+                  required
+                />
+
+                <label class="visually-hidden" for="gender">Gender</label>
+                <select required name="" id="gender" class="calculate-input">
+                  <option class="gender" value="" disabled selected>
+                    Gender
+                  </option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                </select>
+
+                <label class="visually-hidden" for="activity-factor2"
+                  >Activity Factor</label
+                >
+                <input
+                  type="text"
+                  list="activity-factor"
+                  required
+                  name=""
+                  id="activity-factor2"
+                  class="calculate-input wide"
+                  placeholder="Choose your activity level:"
+                />
+                <datalist id="activity-factor">
+                  <option value="Lightly active">
+                    Light exercise/ sports 1 - 3 days/ week
+                  </option>
+                  <option value="Moderately active">
+                    Moderate Exercise, sports 3 - 5 days/ week
+                  </option>
+                  <option value="Very active">
+                    Heavy Exercise/ sports 6 - 7 days/ week
+                  </option>
+                  <option value="Extremely active">
+                    Very heavy exercise/ physical job/ training twice day
+                  </option>
+                </datalist>
+              </div>
+              <button
+                type="submit"
+                class="calculate-form-button button transparent"
+              >
+                Calculate
+              </button>
+            </form>
+          </div>
+          <div class="calculate-table-wrapper">
+            <table class="calculate-table">
+              <thead>
+                <tr>
+                  <th>BMI</th>
+                  <th>WEIGHT STATUS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <td colspan="2">
+                  <b>BMR</b> Metabolic Rate / <b>BMI</b> Body Mass Index
+                </td>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-main-inner container">
+          <header class="footer-header">
+            <a href="/" class="footer-logo"
+              ><img
+                src="images/header-logo.svg"
+                width="270px"
+                height="50px"
+                loading="lazy"
+                alt="Kropp Logo"
+                class="footer-logo-image"
+            /></a>
+            <p class="footer-description">
+              please feel free to send us an e-mail at
+              <a href="mailto: kropp@qodeinteractive.com"
+                >kropp@qodeinteractive.com</a
+              >
+              For any additional inquiries
+            </p>
+          </header>
+          <div class="footer-body">
+            <div class="footer-column">
+              <h2 class="footer-column-title">About</h2>
+              <p class="footer-about">
+                Shape up your site with Kropp, a theme especially made for
+                fitness & gym websites.
+              </p>
+            </div>
+            <div class="footer-column">
+              <h2 class="footer-column-title">Working Hours</h2>
+              <div class="footer-schedule">
+                Monday - Friday <br />
+                <time datetime="05:30/24:00">05:30 - 24:00</time>
+              </div>
+              <div class="footer-schedule">
+                Weekdays <br />
+                <time datetime="00:00/24:00">00:00 - 24:00</time>
+              </div>
+            </div>
+            <div class="footer-column">
+              <h2 class="footer-column-title">Location</h2>
+              <address class="footer-address">
+                68 Jay Street, Brooklyn, <br />
+                NY 11201, United States
+              </address>
+              <div class="footer-contacts">
+                <ul class="footer-contacts-list">
+                  <li class="footer-contacts-item">
+                    <a
+                      class="footer-contacts-link"
+                      href="mailto:kropp@qodeinteractive.com"
+                      >kropp@qodeinteractive.com</a
+                    >
+                  </li>
+                  <li class="footer-contacts-item">
+                    <a class="footer-contacts-link" href="tel:+17184076400"
+                      >+ (1) 718 - 407 - 6400</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+              <div class="footer-column">
+                <h2 class="footer-column-title has-arrow">Start Now</h2>
+                <form class="footer-subscribe">
+                  <label class="visually-hidden" for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    class="footer-subscribe-input input"
+                    placeholder="Email"
+                  />
+                  <button
+                    class="footer-subscribe-button"
+                    type="submit"
+                    title="Subscribe"
+                  >
+                    <span class="visually-hidden">Subscribe</span>
+                  </button>
+                </form>
+                <!-- soc1als позволяет обойти блокировщик рекламы которые блочат элементы базируясь на имени класса-->
+                <div class="footer-soc1als">
+                  <ul class="footer-soc1als-list">
+                    <li class="footer-soc1als-item">
+                      <a
+                        href="#"
+                        class="footer-socials-link"
+                        target="_blank"
+                      ><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z" fill="#000000"/>
+                        </svg></a>
+                    </li>
+                    <li class="footer-soc1als-item">
+                      <a
+                        href="#"
+                        class="footer-socials-link"
+                        target="_blank"
+                      ><svg  viewBox="0 -0.5 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.168 19.0028C20.4724 19.0867 22.41 17.29 22.5 14.9858V9.01982C22.41 6.71569 20.4724 4.91893 18.168 5.00282H6.832C4.52763 4.91893 2.58998 6.71569 2.5 9.01982V14.9858C2.58998 17.29 4.52763 19.0867 6.832 19.0028H18.168Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.008 9.17784L15.169 11.3258C15.3738 11.4454 15.4997 11.6647 15.4997 11.9018C15.4997 12.139 15.3738 12.3583 15.169 12.4778L12.008 14.8278C11.408 15.2348 10.5 14.8878 10.5 14.2518V9.75184C10.5 9.11884 11.409 8.77084 12.008 9.17784Z" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg></a>
+                    </li>
+                    <li class="footer-soc1als-item">
+                      <a
+                        href="#"
+                        class="footer-socials-link"
+                        target="_blank"
+                      ><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.8217 5.1344C16.0886 4.29394 15.6479 3.19805 15.6479 2H14.7293M16.8217 5.1344C17.4898 5.90063 18.3944 6.45788 19.4245 6.67608C19.7446 6.74574 20.0786 6.78293 20.4266 6.78293V10.2191C18.645 10.2191 16.9932 9.64801 15.6477 8.68211V15.6707C15.6477 19.1627 12.8082 22 9.32386 22C7.50043 22 5.85334 21.2198 4.69806 19.98C3.64486 18.847 2.99994 17.3331 2.99994 15.6707C2.99994 12.2298 5.75592 9.42509 9.17073 9.35079M16.8217 5.1344C16.8039 5.12276 16.7861 5.11101 16.7684 5.09914M6.9855 17.3517C6.64217 16.8781 6.43802 16.2977 6.43802 15.6661C6.43802 14.0734 7.73249 12.7778 9.32394 12.7778C9.62087 12.7778 9.9085 12.8288 10.1776 12.9124V9.40192C9.89921 9.36473 9.61622 9.34149 9.32394 9.34149C9.27287 9.34149 8.86177 9.36884 8.81073 9.36884M14.7244 2H12.2097L12.2051 15.7775C12.1494 17.3192 10.8781 18.5591 9.32386 18.5591C8.35878 18.5591 7.50971 18.0808 6.98079 17.3564" stroke="#000000" stroke-linejoin="round"/>
+                        </svg></a>
+                    </li>
+                    <li class="footer-soc1als-item">
+                      <a
+                        href="#"
+                        class="footer-socials-link"
+                        target="_blank"
+                      ><svg  viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none"><path stroke="#000000" stroke-width="12" d="M96 162c-14.152 0-24.336-.007-32.276-.777-7.849-.761-12.87-2.223-16.877-4.741a36 36 0 0 1-11.33-11.329c-2.517-4.007-3.98-9.028-4.74-16.877C30.007 120.336 30 110.152 30 96c0-14.152.007-24.336.777-32.276.76-7.849 2.223-12.87 4.74-16.877a36 36 0 0 1 11.33-11.33c4.007-2.517 9.028-3.98 16.877-4.74C71.663 30.007 81.847 30 96 30c14.152 0 24.336.007 32.276.777 7.849.76 12.87 2.223 16.877 4.74a36 36 0 0 1 11.329 11.33c2.518 4.007 3.98 9.028 4.741 16.877.77 7.94.777 18.124.777 32.276 0 14.152-.007 24.336-.777 32.276-.761 7.849-2.223 12.87-4.741 16.877a36 36 0 0 1-11.329 11.329c-4.007 2.518-9.028 3.98-16.877 4.741-7.94.77-18.124.777-32.276.777Z"/><circle cx="96" cy="96" r="30" stroke="#000000" stroke-width="12"/><circle cx="135" cy="57" r="9" fill="#000000"/></svg></a>
+                    </li>
+                    <li class="footer-soc1als-item">
+                      <a
+                        href="#"
+                        class="footer-socials-link"
+                        target="_blank"
+                      ><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="black" stroke="black" d="M19.83 8.00001C19.83 8.17001 19.83 8.35001 19.83 8.52001C19.8393 10.0302 19.5487 11.5272 18.9751 12.9242C18.4014 14.3212 17.5562 15.5904 16.4883 16.6583C15.4204 17.7262 14.1512 18.5714 12.7542 19.1451C11.3572 19.7187 9.86017 20.0093 8.34999 20C6.15213 20.0064 3.9992 19.3779 2.14999 18.19C2.47999 18.19 2.78999 18.19 3.14999 18.19C4.96345 18.19 6.72433 17.5808 8.14999 16.46C7.30493 16.4524 6.48397 16.1774 5.80489 15.6744C5.12581 15.1714 4.62349 14.4662 4.36999 13.66C4.62464 13.7006 4.88213 13.7207 5.13999 13.72C5.49714 13.7174 5.85281 13.6738 6.19999 13.59C5.2965 13.4056 4.48448 12.9147 3.90135 12.2003C3.31822 11.486 2.99981 10.5921 2.99999 9.67001C3.55908 9.97841 4.18206 10.153 4.81999 10.18C4.25711 9.80767 3.79593 9.30089 3.47815 8.7055C3.16038 8.11011 2.99604 7.44489 2.99999 6.77001C3.00124 6.06749 3.18749 5.37769 3.53999 4.77001C4.55172 6.01766 5.81423 7.03889 7.24575 7.76757C8.67727 8.49625 10.2459 8.91613 11.85 9.00001C11.7865 8.69737 11.753 8.38922 11.75 8.08001C11.7239 7.25689 11.9526 6.44578 12.4047 5.75746C12.8569 5.06913 13.5104 4.53714 14.2762 4.23411C15.0419 3.93109 15.8826 3.87181 16.6833 4.06437C17.484 4.25693 18.2057 4.69195 18.75 5.31001C19.655 5.12822 20.5214 4.78981 21.31 4.31001C21.0088 5.24317 20.3754 6.0332 19.53 6.53001C20.3337 6.44316 21.1194 6.23408 21.86 5.91001C21.3116 6.71097 20.6361 7.41694 19.86 8.00001H19.83Z" fill="#000000"/>
+                        </svg></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-extra">
+        <div class="footer-extra-inner container">
+          <p class="footer-copyright">
+            © <time datetime="2022">2022</time> Qode Interactive, All Rights Reserved | <a href="#">Privacy Policy</a> |
+            <a href="mailto:kropp@qodeinteractive.com">Contact Us</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
